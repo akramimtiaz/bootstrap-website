@@ -1,0 +1,1 @@
+A simple website built using HTML, CSS, JavaScript and the popular Bootstrap library.
