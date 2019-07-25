@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer:400i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap');
+
+
+.introduction {
+    background: linear-gradient(to top, #000066 0%, #6666ff 55%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.introduction div {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.introduction h3 {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    font-family: 'Poppins', serif;
+    font-weight: 500;
+    font-size: 3.2em;
+    text-transform: capitalize;
+    /* text-shadow: 1px 1px 4px black; */
+    color: white;
+    text-align: left;
+}
+
+.introduction p {
+    margin-bottom: 1.5em;
+    font-family: 'Poppins', serif;
+    font-size: 1.1em;
+    color: white;
+}
+
+
+.introduction button.learn, 
+.introduction button.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border: none;
+    border-radius: 5px;
+    font-family:  'Poppins', sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.introduction button.learn {
+    color: white;
+    background-color:#6A5ACD;
+}
+
+.introduction button.about {
+    border: 1px solid lightgray;
+    color: black;
+    background-color:white;
+}
+
+.introduction button.learn span,
+.introduction button.about span {
+    flex-grow: 1;
+}
+
+.introduction button.learn i,
+.introduction button.about i {
+    align-self: center;
+}
+
+
